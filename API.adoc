@@ -1,0 +1,30 @@
+# Teams API
+
+:TEAMS_Table: Teams
+:TEAMS_DATABASE: PostgresSQL
+:TEAMS_DATA: NFL Teams
+:TEAMS_HOST: Render
+:TEAMS_STATUS: Available
+:imagesdir: images
+
+
+image::nflLogo.png[alt=logo,width=250px][orietation=landscape]
+## What is the API
+The API is a database used to hold NFL team information
+
+## How is the API hosted
+The API is hosted via Render.com
+
+## What database languages were utilized
+- PostgresSQL
+
+## API Environment Details
+
+[grid="rows",format="csv"]
+[oiptions="header",cols="^,<,<s,<,>m"]
+|===========================
+TableName,Database,Data,Host,Status
+`{TEAMS_TABLE}`,`{TEAMS_DATABASE}`,`{TEAMS_DATA}`,`{TEAMS_HOST}`,`{TEAMS_STATUS}`
+|===========================
+
+
